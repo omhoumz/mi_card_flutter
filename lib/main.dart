@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        backgroundColor: Colors.teal,
+        backgroundColor: Colors.indigo,
         body: SafeArea(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -35,14 +35,14 @@ class MyApp extends StatelessWidget {
                 style: TextStyle(
                   fontFamily: 'SourceSans',
                   fontSize: 18.0,
-                  color: Colors.teal[100],
+                  color: Colors.indigo[100],
                 ),
               ),
               SizedBox(
                 height: 32.0,
                 width: 260.0,
                 child: Divider(
-                  color: Colors.teal[100],
+                  color: Colors.indigo[100],
                 ),
               ),
               Card(
@@ -53,14 +53,14 @@ class MyApp extends StatelessWidget {
                 child: ListTile(
                   leading: Icon(
                     Icons.phone,
-                    color: Colors.teal[900],
+                    color: Colors.indigo[900],
                   ),
                   title: Text(
                     phoneNumber,
                     style: TextStyle(
                       fontSize: 16.0,
                       fontWeight: FontWeight.bold,
-                      color: Colors.teal[900],
+                      color: Colors.indigo[900],
                     ),
                   ),
                 ),
@@ -73,14 +73,14 @@ class MyApp extends StatelessWidget {
                 child: ListTile(
                   leading: Icon(
                     Icons.email,
-                    color: Colors.teal[900],
+                    color: Colors.indigo[900],
                   ),
                   title: Text(
                     email,
                     style: TextStyle(
                       fontSize: 16.0,
                       fontWeight: FontWeight.bold,
-                      color: Colors.teal[900],
+                      color: Colors.indigo[900],
                     ),
                   ),
                 ),
